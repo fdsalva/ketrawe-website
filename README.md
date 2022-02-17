@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+## UTN Proyecto Final Web Avanzado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Alumno: Salva Federico
 
-In the project directory, you can run:
+DNI: 38416960
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Tienda Ketrawe
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Tienda Ketrawe* es una tienda virtual de productos de jardinería y huerta.
+Es un proyecto que se encuentra en desarrollo actualmente con vistas a expandir la sección ecommerce.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Stack
 
-### `npm run build`
+El proyecto está desarrollado con el stack MERN, es decir, utiliza *MongoDB, Express JS, React JS y Node JS*.
+Se compone por:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - Armado web en servidor (SSR)
+ - REST API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploy
 
-### `npm run eject`
+El sitio se encuentra en producción mediante deploy en Heroku. 
+La aplicación cuenta con el website y la API en directiorios separados, cada una con su respectivo deploy y dominio.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Módulos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- El sitio consume librerías de estructurado y estilado de *Bootstrap*. *Google Fonts* para estilado de fuentes;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Utiliza *Axios* para las queries y peticiones de objetos a la DB;
 
-## Learn More
+- Consume el servicio de *Formspark* para recibir y almacenar los submit de los forms en la seccion de Contacto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- *Mongoose* para conexión a la base de datos y modelado/validación de objetos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- *Mongo Atlas* como soporte de almacenamiento de base de datos.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- *React Router* para las rutas de los respectivos endpoints de las secciones de la app.

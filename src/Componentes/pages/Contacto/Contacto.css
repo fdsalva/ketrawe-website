@@ -1,0 +1,119 @@
+ .body-contact {
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+    margin: 0;
+}
+
+
+h1 {
+    color: #6cc795;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact-a-ul {
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+} 
+
+.contact-a-ul:hover {
+    color:#5aa17a
+}
+
+
+label {
+    color: rgb(82, 82, 82);
+    font-size: 18px;
+}
+
+@media (min-width: 992px) {
+    input {
+        color: rgb(82, 82, 82);
+        font-size: 14px;
+        width: 600px;
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 0px ;
+    }
+    .msg {
+        height: 150px;
+    }
+    textarea {
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid lightgray;
+        width: 600px;
+        height: 150px;
+        font-size: 14px;
+        outline: none;
+        color: rgb(82, 82, 82)
+    }
+    button{
+    
+        border-radius: 15px;
+        border: 1px solid lightgray;
+        width: 600px;
+        height: 45px;
+        outline: none;
+   
+}
+
+    
+}
+
+@media (max-width: 992px) {
+    input {
+        width: 350px;
+        height: 50px;
+    }
+    .msg {
+        height: 100px;
+    }
+    textarea {
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid lightgray;
+        width: 350px;
+        height: 100px;
+        font-size: 14px;
+        outline: none;
+        color: rgb(82, 82, 82)
+    }
+    button{
+    
+        border-radius: 15px;
+        border: 1px solid lightgray;
+        width: 350px;
+        height: 45px;
+        outline: none;
+   
+}
+
+    
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    
+    outline: none;
+}
+
+
+.send {
+    background-color: #6cc795;
+    color: white;
+    font-size: 18px;
+}
+
+.send:hover{
+    color: #fbd781;
+} 
+
+
+::placeholder {
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+}

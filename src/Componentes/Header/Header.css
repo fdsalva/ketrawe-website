@@ -1,0 +1,57 @@
+.body-header {
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+nav {
+    background-color: #6cc795;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo-home {
+    max-width: 65%;
+    margin: 0px 50px 0px 0px;
+}
+
+.container-logo {
+    max-width: 25%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fbd781;
+}
+
+.nav-item-center {
+    font-size: 120%;
+}
+
+.nav-item-right {
+    font-size: 80%;
+}
+
+/*
+ div {
+    border: 1px solid black;
+}
+*/
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+svg {
+    max-width: 20%;
+    height: 35px;
+}
+
+path {
+    fill: white;
+}
+
